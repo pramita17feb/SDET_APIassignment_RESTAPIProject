@@ -1,0 +1,68 @@
+2020-10-06 14:38:35,694 WARN  [SoapUI] Missing folder [C:\Users\PramitaGhosh\Downloads\SDETLearning_Manipal\RESTAPIProject\my-app\ext] for external libraries
+2020-10-06 14:38:35,999 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PramitaGhosh\soapui-settings.xml]
+2020-10-06 14:38:38,492 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PramitaGhosh/Downloads/SDETLearning_Manipal/RESTAPIProject/my-app/REST-Project-2-soapui-project.xml]
+2020-10-06 14:38:39,439 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 2]
+2020-10-06 14:38:39,443 INFO  [SoapUITestCaseRunner] Running Project [REST Project 2], runType = SEQUENTIAL
+2020-10-06 14:38:39,467 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Access Token TestCase]
+2020-10-06 14:38:39,504 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2020-10-06 14:38:41,776 INFO  [log] 9814301ae0c2e3127e8df1007a8ae91eeb091992
+2020-10-06 14:38:41,802 INFO  [log] bearer 9814301ae0c2e3127e8df1007a8ae91eeb091992
+2020-10-06 14:38:41,896 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:41,912 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:41,913 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-06 14:38:41,914 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion 1] has status VALID
+2020-10-06 14:38:41,915 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Access Token TestCase], time taken: 1160ms, status: FINISHED
+2020-10-06 14:38:41,923 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [AdminLogin TestCase]
+2020-10-06 14:38:41,925 INFO  [SoapUITestCaseRunner] running step [LoginRequest]
+2020-10-06 14:38:42,497 INFO  [log] {data={image=, date_added=2019-11-11 07:59:33, firstname=John, user_group=Administrator, user_id=1, ip=223.176.41.81, user_group_id=1, email=probitstechnologies@gmail.com, username=upskills_admin, lastname=Doe, status=1}, success=1, error=[]}
+2020-10-06 14:38:42,503 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:42,508 INFO  [log] upskills_admin
+2020-10-06 14:38:42,511 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:42,512 INFO  [SoapUITestCaseRunner] running step [GetUser]
+2020-10-06 14:38:43,172 INFO  [log] {data={image=, date_added=2019-11-11 07:59:33, firstname=John, user_group=Administrator, user_id=1, ip=223.176.41.81, user_group_id=1, email=probitstechnologies@gmail.com, username=upskills_admin, lastname=Doe, status=1}, success=1, error=[]}
+2020-10-06 14:38:43,184 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:43,186 INFO  [log] upskills_admin
+2020-10-06 14:38:43,188 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:43,195 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [AdminLogin TestCase], time taken: 946ms, status: FINISHED
+2020-10-06 14:38:43,202 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [AddCustomerAndRewardPoints]
+2020-10-06 14:38:43,206 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-10-06 14:38:43,861 INFO  [log] total number of rows has data =2
+2020-10-06 14:38:43,863 INFO  [log] total number of columns has data =2
+2020-10-06 14:38:43,943 INFO  [log] email @row 1 demouser81@gmail.com
+2020-10-06 14:38:43,951 INFO  [log] rewards @row 1 100
+2020-10-06 14:38:43,970 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-10-06 14:38:44,050 INFO  [SoapUITestCaseRunner] running step [addNewCustomer]
+2020-10-06 14:38:44,760 INFO  [log] 2191
+2020-10-06 14:38:44,765 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:44,774 INFO  [SoapUITestCaseRunner] running step [getUserById]
+2020-10-06 14:38:45,453 INFO  [log] {data={store_id=0, newsletter=1, firstname=Demo, addresses=[{address_format={company}
+{firstname} {lastname}
+{address_1}
+{address_2}
+{postcode} {city}
+{country}, country=Germany, custom_field={3=https://rest-api.upskills.in}, firstname=Demo, city=Berlin, address_1=Demo street, address_2=Long street 33, address_id=949, postcode=1111, lastname=User, zone_code=BER, iso_code_2=DE, zone_id=1256, iso_code_3=DEU, zone=Berlin, company=XYZ LTD., customer_id=2191, country_id=81}], custom_fields=[], telephone=1-541-754-3010, reward_points=0, lastname=User, date_added=06/10/2020, approved=, transaction_total=?0.00, safe=1, account_custom_field={1=1985-02-01, 2=2}, customer_id=2191, affiliate=[], customer_group_id=1, email=demouser81@gmail.com, status=1}, success=1, error=[]}
+2020-10-06 14:38:45,480 INFO  [log] 2191
+2020-10-06 14:38:45,481 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:45,486 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:45,489 INFO  [SoapUITestCaseRunner] running step [AddRewardpoints]
+2020-10-06 14:38:46,748 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:46,750 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:46,751 INFO  [SoapUITestCaseRunner] running step [getUserById 1]
+2020-10-06 14:38:47,306 INFO  [log] {data={store_id=0, newsletter=1, firstname=Demo, addresses=[{address_format={company}
+{firstname} {lastname}
+{address_1}
+{address_2}
+{postcode} {city}
+{country}, country=Germany, custom_field={3=https://rest-api.upskills.in}, firstname=Demo, city=Berlin, address_1=Demo street, address_2=Long street 33, address_id=949, postcode=1111, lastname=User, zone_code=BER, iso_code_2=DE, zone_id=1256, iso_code_3=DEU, zone=Berlin, company=XYZ LTD., customer_id=2191, country_id=81}], custom_fields=[], telephone=1-541-754-3010, reward_points=100, lastname=User, date_added=06/10/2020, approved=, transaction_total=?0.00, safe=1, account_custom_field={1=1985-02-01, 2=2}, customer_id=2191, affiliate=[], customer_group_id=1, email=demouser81@gmail.com, status=1}, success=1, error=[]}
+2020-10-06 14:38:47,322 INFO  [log] 2191
+2020-10-06 14:38:47,324 INFO  [log] 100
+2020-10-06 14:38:47,358 INFO  [log] {data={id=2191}, success=1, error=[]}
+2020-10-06 14:38:47,366 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:47,367 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:47,371 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [AddCustomerAndRewardPoints], time taken: 3526ms, status: FINISHED
+2020-10-06 14:38:47,374 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Logout TestCase]
+2020-10-06 14:38:47,375 INFO  [SoapUITestCaseRunner] running step [AdminLogout]
+2020-10-06 14:38:48,074 INFO  [log] [HTTP/1.1 200 OK]
+2020-10-06 14:38:48,078 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-06 14:38:48,082 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Logout TestCase], time taken: 578ms, status: FINISHED
+2020-10-06 14:38:48,089 INFO  [SoapUITestCaseRunner] Project [REST Project 2] finished with status [FINISHED] in 8637ms
